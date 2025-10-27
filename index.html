@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FJ Marketing - Portfolio Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="Assets/Logo.png" alt="FJ Marketing Logo" class="logo-image">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projekte">Projekte</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Willkommen bei FJ Marketing</h2>
+                <p class="hero-subtitle">Ihre Experten für kreatives Marketing & Design</p>
+                <p class="hero-description">Entdecken Sie unsere erfolgreichsten Projekte und wie wir Marken zum Leben erwecken</p>
+                <a href="#projekte" class="cta-button">Unsere Projekte ansehen</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projekte" class="projects">
+        <div class="container">
+            <h2 class="section-title">Unsere Top 7 Projekte</h2>
+            <div class="stats-overview">
+                <div class="stat-card">
+                    <h3 class="stat-number">7</h3>
+                    <p class="stat-label">Erfolgreiche Projekte</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number">20.000+</h3>
+                    <p class="stat-label">Begeisterte Menschen</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number">100%</h3>
+                    <p class="stat-label">Kundenzufriedenheit</p>
+                </div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Thunbier -->
+                <div class="project-card" data-project="thunbier">
+                    <div class="project-image">
+                        <img src="Assets/Thunbier.jpeg" alt="Thunbier Flaschendesign">
+                        <div class="project-overlay">
+                            <button class="view-details-btn" onclick="openModal('thunbier')">Details ansehen</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Thunbier</h3>
+                        <p class="project-category">Packaging Design</p>
+                        <p class="project-description">Neues Flaschendesign für traditionelle Brauerei</p>
+                    </div>
+                </div>
+
+                <!-- Project 2: Landgartenschau -->
+                <div class="project-card" data-project="landgartenschau">
+                    <div class="project-image">
+                        <div class="project-pdf-preview">
+                            <span class="pdf-icon">📄</span>
+                        </div>
+                        <div class="project-overlay">
+                            <button class="view-details-btn" onclick="openModal('landgartenschau')">Details ansehen</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Landgartenschau</h3>
+                        <p class="project-category">Event Marketing</p>
+                        <p class="project-description">Flyer-Kampagne mit 20.000+ begeisterten Besuchern</p>
+                    </div>
+                </div>
+
+                <!-- Project 3: TSV Landsberg -->
+                <div class="project-card" data-project="tsv">
+                    <div class="project-image">
+                        <img src="Assets/TSVLandsberg.png" alt="TSV Landsberg">
+                        <div class="project-overlay">
+                            <button class="view-details-btn" onclick="openModal('tsv')">Details ansehen</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">TSV Landsberg</h3>
+                        <p class="project-category">Social Media Management</p>
+                        <p class="project-description">Komplette Social Media Betreuung</p>
+                    </div>
+                </div>
+
+                <!-- Project 4: ACS -->
+                <div class="project-card" data-project="acs">
+                    <div class="project-image">
+                        <img src="Assets/ACS.svg" alt="ACS Logo">
+                        <div class="project-overlay">
+                            <button class="view-details-btn" onclick="openModal('acs')">Details ansehen</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">ACS</h3>
+                        <p class="project-category">Logo Design & Branding</p>
+                        <p class="project-description">Neues Logo auf mehreren Flugzeugen</p>
+                    </div>
+                </div>
+
+                <!-- Project 5: Restaurant -->
+                <div class="project-card" data-project="restaurant">
+                    <div class="project-image">
+                        <div class="project-pdf-preview">
+                            <span class="pdf-icon">📄</span>
+                        </div>
+                        <div class="project-overlay">
+                            <button class="view-details-btn" onclick="openModal('restaurant')">Details ansehen</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Restaurant</h3>
+                        <p class="project-category">Print Design</p>
+                        <p class="project-description">Speisekarte mit messbarer Umsatzsteigerung</p>
+                    </div>
+                </div>
+
+                <!-- Project 6: Millionen Exposé -->
+                <div class="project-card" data-project="millionen">
+                    <div class="project-image">
+                        <div class="project-pdf-preview">
+                            <span class="pdf-icon">📄</span>
+                        </div>
+                        <div class="project-overlay">
+                            <button class="view-details-btn" onclick="openModal('millionen')">Details ansehen</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Millionen Exposé</h3>
+                        <p class="project-category">Immobilien Marketing</p>
+                        <p class="project-description">Villa in 2 Wochen verkauft</p>
+                    </div>
+                </div>
+
+                <!-- Project 7: CSB Banner -->
+                <div class="project-card" data-project="csb">
+                    <div class="project-image">
+                        <img src="Assets/CSB Banner.png" alt="CSB Banner">
+                        <div class="project-overlay">
+                            <button class="view-details-btn" onclick="openModal('csb')">Details ansehen</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">CSB Banner</h3>
+                        <p class="project-category">Sponsoring Design</p>
+                        <p class="project-description">Riesen-Banner für europäische Software-Firma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="contact">
+        <div class="container">
+            <h2 class="section-title">Kontaktieren Sie uns</h2>
+            <p class="contact-text">Lassen Sie uns gemeinsam Ihr nächstes erfolgreiches Projekt starten!</p>
+            <div class="contact-info">
+                <p>📧 office@fj-marketing.com</p>
+                <p>📱 +49 160 90805016</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 FJ Marketing. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Project Details -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
