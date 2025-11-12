@@ -95,6 +95,77 @@ const projectsData = {
             "Erfolgreiche Umsetzung im Großformat"
         ],
         result: "Das Banner repräsentiert CSB professionell bei großen Events und sorgt für maximale Sichtbarkeit der Marke."
+    },
+    "csb-website": {
+        title: "CSB System SE",
+        category: "Web Development",
+        description: "Komplette Gestaltung der Website für CSB System SE inklusive der innovativen Virtual Meat Factory.",
+        details: [
+            "Entwicklung und Design der Unternehmenswebsite",
+            "Integration der Virtual Meat Factory",
+            "Moderne, benutzerfreundliche Oberfläche",
+            "Responsive Design für alle Geräte",
+            "Optimierte User Experience",
+            "Professionelle Präsentation komplexer Softwarelösungen"
+        ],
+        result: "Die neue Website präsentiert CSB System SE als führenden Anbieter von Branchensoftware und die Virtual Meat Factory als innovative Lösung für die Fleischindustrie."
+    },
+    vespa: {
+        title: "Vespa Cristian 46",
+        category: "Web Development",
+        description: "Entwicklung und Integration eines innovativen Website-Konfigurators für Vespa Cristian 46.",
+        details: [
+            "Programmierung eines interaktiven Produkt-Konfigurators",
+            "Intuitive Benutzeroberfläche",
+            "Echtzeit-Visualisierung der Konfiguration",
+            "Nahtlose Integration in die bestehende Website",
+            "Optimierung der Customer Journey",
+            "Steigerung der Conversion-Rate"
+        ],
+        result: "Der Konfigurator ermöglicht Kunden eine individuelle Produktgestaltung und hat die User Experience sowie die Verkaufszahlen deutlich verbessert."
+    },
+    "jkb-hotel": {
+        title: "JKB Hotelsoftware",
+        category: "Software Development",
+        description: "Entwicklung einer umfassenden Hotelverwaltungssoftware für JKB Software.",
+        details: [
+            "Programmierung einer maßgeschneiderten Hotelsoftware",
+            "Buchungsverwaltung und Zimmerdisposition",
+            "Gästeverwaltung und Check-in/Check-out System",
+            "Rechnungsstellung und Zahlungsabwicklung",
+            "Reporting und Statistiken",
+            "Intuitive Benutzeroberfläche für Hotelpersonal"
+        ],
+        result: "Die Software optimiert sämtliche Hotelabläufe und steigert die Effizienz in der Hotelverwaltung erheblich."
+    },
+    "jkb-platz": {
+        title: "JKB Platzbuchungssoftware",
+        category: "Software Development",
+        description: "Entwicklung einer intelligenten Platzbuchungssoftware für JKB Software.",
+        details: [
+            "Programmierung einer flexiblen Buchungslösung",
+            "Übersichtliche Platz- und Ressourcenverwaltung",
+            "Echtzeit-Verfügbarkeitsanzeige",
+            "Automatisierte Buchungsbestätigungen",
+            "Kalenderintegration und Zeitslot-Verwaltung",
+            "Benutzerfreundliches Admin-Panel"
+        ],
+        result: "Die Platzbuchungssoftware vereinfacht die Verwaltung von Ressourcen und Buchungen und spart Zeit im täglichen Betrieb."
+    },
+    "restaurant-app": {
+        title: "Restaurant Reservierungs-App",
+        category: "App Development",
+        description: "Entwicklung einer mobilen App für Tischreservierungen und Essensvorbestellungen.",
+        details: [
+            "Native App-Entwicklung für iOS und Android",
+            "Tischreservierung mit Echtzeit-Verfügbarkeit",
+            "Digitale Speisekarte mit Essensvorbestellung",
+            "Push-Benachrichtigungen für Bestätigungen",
+            "Integriertes Bezahlsystem",
+            "Kundenprofil mit Bestellhistorie",
+            "Benutzerfreundliches Interface"
+        ],
+        result: "Die App revolutioniert das Restauranterlebnis, reduziert Wartezeiten und steigert die Kundenzufriedenheit sowie den Umsatz."
     }
 };
 
