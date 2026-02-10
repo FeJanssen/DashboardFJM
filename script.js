@@ -166,6 +166,21 @@ const projectsData = {
             "Benutzerfreundliches Interface"
         ],
         result: "Die App revolutioniert das Restauranterlebnis, reduziert Wartezeiten und steigert die Kundenzufriedenheit sowie den Umsatz."
+    },
+    "season-of-sounds": {
+        title: "Season of Sounds",
+        category: "Event Marketing",
+        image: "Assets/Seasonofsounds.JPG",
+        description: "Für das Season of Sounds Festival haben wir kreative Flyer zur Vermarktung gestaltet.",
+        details: [
+            "Gestaltung von Festival-Flyern",
+            "Kreatives Design für Event-Marketing",
+            "Zielgruppengerechte Gestaltung",
+            "Hochwertige Druckvorlagen",
+            "Effektive Vermarktungsstrategie",
+            "Steigerung der Besucherzahlen"
+        ],
+        result: "Die Flyer-Kampagne hat erfolgreich zur Vermarktung des Season of Sounds Festivals beigetragen und die Besucherzahlen gesteigert."
     }
 };
 
